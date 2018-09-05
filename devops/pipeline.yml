@@ -15,3 +15,7 @@ jobs:
     trigger: true
   - task: web-app-tests
     file: repo/devops/build.yml
+  - task: deploy-test
+    file: repo/devops/deploy.yml
+
+
