@@ -3,13 +3,12 @@ resources:
 - name: repo
   type: git
   source:
-   uri: ssh://git@github.ibm.com:pjadhav/Concourse.git
+   uri: ssh://git@github.ibm.com:pjadhav/concoursecicd.git
    branch: master
    private_key: |
-  -----BEGIN RSA PRIVATE KEY-----
- AAAAB3NzaC1yc2EAAAADAQABAAABAQDiadhtNjiWDehWPwxiqH0myt/qRZdrkSMxTZpAgJZI0KHbXO9dfdi+B5cITZz7zL4OCHwWtYVMUsMKjjooywic83Mmfh1oOB3WgO1n8yG8NC6AJJ1sffLATwOks7YnUQR/ErSNe4iwoMp+dmMamrZty6omcY+Ztja+klwkb+fis3uW8lYMfgdjYMvVDyVsGkkLaTmAL0xWn3ICDSSX7oIvUdQLoBns74CdwnZ5uCyXYDYCleP98/0PYQcr0fWQwmzameu2xDOXM1x2VEGX9/wN4ADot6AdZZSx97vRZxW3DGzQguS2E2Z6kEOkiziMGpciBIorDyp8FCkPqErMU5MH
-  -----END RSA PRIVATE KEY-----
-
+      -----BEGIN RSA PRIVATE KEY-----
+       AAAAB3NzaC1yc2EAAAADAQABAAABAQDiadhtNjiWDehWPwxiqH0myt/qRZdrkSMxTZpAgJZI0KHbXO9dfdi+B5cITZz7zL4OCHwWtYVMUsMKjjooywic83Mmfh1oOB3WgO1n8yG8NC6AJJ1sffLATwOks7YnUQR/ErSNe4iwoMp+dmMamrZty6omcY+Ztja+klwkb+fis3uW8lYMfgdjYMvVDyVsGkkLaTmAL0xWn3ICDSSX7oIvUdQLoBns74CdwnZ5uCyXYDYCleP98/0PYQcr0fWQwmzameu2xDOXM1x2VEGX9/wN4ADot6AdZZSx97vRZxW3DGzQguS2E2Z6kEOkiziMGpciBIorDyp8FCkPqErMU5MH
+      -----END RSA PRIVATE KEY-----
 
 jobs:
 - name: job-test-app
