@@ -9,4 +9,4 @@ inputs:
 - name: SpringBootTemplate
 
 run:
-  path: Downloads/template-spring-boot-master-3/devops/build.sh
+  path: template-spring-boot-master-2/devops/build.sh

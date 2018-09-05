@@ -18,4 +18,4 @@ jobs:
   - get: repo
     trigger: true
   - task: web-app-tests
-    file: Downloads/template-spring-boot-master-3/devops/build.yml
+    file: repo/template-spring-boot-master-2/devops/build.yml
