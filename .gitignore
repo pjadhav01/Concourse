@@ -1,0 +1,26 @@
+# Package Files #
+*.jar
+*.war
+*.ear
+*.class
+
+### Gradle ###
+.gradle/
+/build/
+/out/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/*.xml
+.idea/**/*.xml
+!.idea/codeStyles/*.xml
+
+### Node files ###
+node_modules/
+devops/tmp.cf.manifest.yml
+patch.diff
