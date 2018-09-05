@@ -9,4 +9,4 @@ inputs:
 - name: repo
 
 run:
-  path: template-spring-boot-master-2/devops/build.sh
+  path: repo/devops/build.sh
